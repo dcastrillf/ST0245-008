@@ -38,7 +38,7 @@ class SingleLinkedList:
         while dato is not None:
             print(dato.elem, end=" ")
             dato = dato.next
-        print(" ")
+        print("")
 
     def reverse_reto(self, k):
         for j in range(k):
