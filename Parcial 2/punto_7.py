@@ -29,9 +29,10 @@ def main():
     pila1 = Stack()
     for i in range(7):
         pila1.apilar(i)
-    print(pila1.stack)
+    print('Pila inicial: ', pila1, sep='')
     pila2 = pila1.punto_7()
-    print(pila2)
+    print('Pila secundaria: ', pila2, sep='')
+    print('Pila inicial vacia: ', pila1, sep='')
 
 
 if __name__ == '__main__':
